@@ -11,7 +11,7 @@ import SwiftUI
 struct CrySkyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(homeViewModel: HomeViewModel(services: NetworkService(),locationManager: LocationManager()))
         }
     }
 }

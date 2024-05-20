@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		04477B992BF95D5B006A59E1 /* CrySkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04477B982BF95D5B006A59E1 /* CrySkyApp.swift */; };
-		04477B9B2BF95D5B006A59E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04477B9A2BF95D5B006A59E1 /* ContentView.swift */; };
+		04477B9B2BF95D5B006A59E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04477B9A2BF95D5B006A59E1 /* HomeView.swift */; };
 		04477B9D2BF95D5E006A59E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04477B9C2BF95D5E006A59E1 /* Assets.xcassets */; };
 		04477BA02BF95D5E006A59E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04477B9F2BF95D5E006A59E1 /* Preview Assets.xcassets */; };
+		045A351D2BFA51110056F604 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A351C2BFA51110056F604 /* NetworkService.swift */; };
+		045A35202BFA55140056F604 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 045A351F2BFA55140056F604 /* Alamofire */; };
+		045A35222BFA55140056F604 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 045A35212BFA55140056F604 /* AlamofireDynamic */; };
+		045A35252BFA55800056F604 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 045A35242BFA55800056F604 /* Kingfisher */; };
+		045A35272BFA55920056F604 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A35262BFA55920056F604 /* Model.swift */; };
+		045A352A2BFB00820056F604 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A35292BFB00820056F604 /* Utils.swift */; };
+		047A048F2BFBE5A60082B560 /* LocationManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A048E2BFBE5A60082B560 /* LocationManger.swift */; };
+		047A04922BFBE8FE0082B560 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A04912BFBE8FE0082B560 /* DetailsViewModel.swift */; };
+		04900E972BFB3AB400F9BA5A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04900E962BFB3AB400F9BA5A /* HomeViewModel.swift */; };
+		04900E992BFB9F0000F9BA5A /* HomeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04900E982BFB9F0000F9BA5A /* HomeCustomCell.swift */; };
+		04900EA42BFBA73500F9BA5A /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04900EA32BFBA73500F9BA5A /* DetailsView.swift */; };
+		04900EA62BFBA74C00F9BA5A /* DetailsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04900EA52BFBA74C00F9BA5A /* DetailsCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04477B952BF95D5B006A59E1 /* CrySky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrySky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04477B982BF95D5B006A59E1 /* CrySkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrySkyApp.swift; sourceTree = "<group>"; };
-		04477B9A2BF95D5B006A59E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04477B9A2BF95D5B006A59E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		04477B9C2BF95D5E006A59E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04477B9F2BF95D5E006A59E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		045A351C2BFA51110056F604 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		045A35262BFA55920056F604 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		045A35282BFAFAC60056F604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		045A35292BFB00820056F604 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		047A048E2BFBE5A60082B560 /* LocationManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManger.swift; sourceTree = "<group>"; };
+		047A04912BFBE8FE0082B560 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		04900E962BFB3AB400F9BA5A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		04900E982BFB9F0000F9BA5A /* HomeCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomCell.swift; sourceTree = "<group>"; };
+		04900EA32BFBA73500F9BA5A /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		04900EA52BFBA74C00F9BA5A /* DetailsCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045A35252BFA55800056F604 /* Kingfisher in Frameworks */,
+				045A35202BFA55140056F604 /* Alamofire in Frameworks */,
+				045A35222BFA55140056F604 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +76,10 @@
 		04477B972BF95D5B006A59E1 /* CrySky */ = {
 			isa = PBXGroup;
 			children = (
+				045A35282BFAFAC60056F604 /* Info.plist */,
+				04900E9D2BFBA66000F9BA5A /* Modules */,
+				04900E9A2BFBA55D00F9BA5A /* Model */,
 				04477B982BF95D5B006A59E1 /* CrySkyApp.swift */,
-				04477B9A2BF95D5B006A59E1 /* ContentView.swift */,
 				04477B9C2BF95D5E006A59E1 /* Assets.xcassets */,
 				04477B9E2BF95D5E006A59E1 /* Preview Content */,
 			);
@@ -65,6 +92,94 @@
 				04477B9F2BF95D5E006A59E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047A04902BFBE8E80082B560 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				047A04912BFBE8FE0082B560 /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04900E9A2BFBA55D00F9BA5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04900E9B2BFBA56500F9BA5A /* Models */,
+				04900E9C2BFBA57900F9BA5A /* Services */,
+				045A35292BFB00820056F604 /* Utils.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04900E9B2BFBA56500F9BA5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				045A35262BFA55920056F604 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04900E9C2BFBA57900F9BA5A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				045A351C2BFA51110056F604 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04900E9D2BFBA66000F9BA5A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				04900EA12BFBA71800F9BA5A /* Details */,
+				04900E9E2BFBA67500F9BA5A /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04900E9E2BFBA67500F9BA5A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04900EA02BFBA6CB00F9BA5A /* View */,
+				04900E9F2BFBA68100F9BA5A /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04900E9F2BFBA68100F9BA5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04900E962BFB3AB400F9BA5A /* HomeViewModel.swift */,
+				047A048E2BFBE5A60082B560 /* LocationManger.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04900EA02BFBA6CB00F9BA5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04477B9A2BF95D5B006A59E1 /* HomeView.swift */,
+				04900E982BFB9F0000F9BA5A /* HomeCustomCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04900EA12BFBA71800F9BA5A /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				047A04902BFBE8E80082B560 /* ViewModel */,
+				04900EA22BFBA72100F9BA5A /* View */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		04900EA22BFBA72100F9BA5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04900EA32BFBA73500F9BA5A /* DetailsView.swift */,
+				04900EA52BFBA74C00F9BA5A /* DetailsCustomCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,11 @@
 			dependencies = (
 			);
 			name = CrySky;
+			packageProductDependencies = (
+				045A351F2BFA55140056F604 /* Alamofire */,
+				045A35212BFA55140056F604 /* AlamofireDynamic */,
+				045A35242BFA55800056F604 /* Kingfisher */,
+			);
 			productName = CrySky;
 			productReference = 04477B952BF95D5B006A59E1 /* CrySky.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +231,10 @@
 				Base,
 			);
 			mainGroup = 04477B8C2BF95D5B006A59E1;
+			packageReferences = (
+				045A351E2BFA55140056F604 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				045A35232BFA55800056F604 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 04477B962BF95D5B006A59E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04477B9B2BF95D5B006A59E1 /* ContentView.swift in Sources */,
+				04900E992BFB9F0000F9BA5A /* HomeCustomCell.swift in Sources */,
+				045A352A2BFB00820056F604 /* Utils.swift in Sources */,
+				04477B9B2BF95D5B006A59E1 /* HomeView.swift in Sources */,
+				045A351D2BFA51110056F604 /* NetworkService.swift in Sources */,
+				047A048F2BFBE5A60082B560 /* LocationManger.swift in Sources */,
 				04477B992BF95D5B006A59E1 /* CrySkyApp.swift in Sources */,
+				04900EA62BFBA74C00F9BA5A /* DetailsCustomCell.swift in Sources */,
+				047A04922BFBE8FE0082B560 /* DetailsViewModel.swift in Sources */,
+				04900EA42BFBA73500F9BA5A /* DetailsView.swift in Sources */,
+				04900E972BFB3AB400F9BA5A /* HomeViewModel.swift in Sources */,
+				045A35272BFA55920056F604 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +407,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CrySky/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrySky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CrySky/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrySky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +477,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		045A351E2BFA55140056F604 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		045A35232BFA55800056F604 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		045A351F2BFA55140056F604 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 045A351E2BFA55140056F604 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		045A35212BFA55140056F604 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 045A351E2BFA55140056F604 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		045A35242BFA55800056F604 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 045A35232BFA55800056F604 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04477B8D2BF95D5B006A59E1 /* Project object */;
 }
